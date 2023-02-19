@@ -1,0 +1,19 @@
+{
+  "name": "generator-formc",
+  "version": "0.1.0",
+  "description": "",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "yeoman-generator": "^5.8.0",
+    "yosay": "^2.0.2"
+  },
+  "devDependencies": {
+    "mkdirp": "^2.1.3"
+  }
+}

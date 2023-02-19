@@ -1,0 +1,8 @@
+<form (ngSubmit)="onSubmit()">
+    <div *ngFor="let field of fields">
+      <label>{{ field.label }}</label>
+      <input type="{{ field.type }}" name="{{ field.name }}" [(ngModel)]="formData[field.name]" placeholder="{{ field.placeholder }}" [required]="field.required">
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+  

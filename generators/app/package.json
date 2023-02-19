@@ -1,0 +1,11 @@
+{
+    "name": "generator-formc",
+    "version": "0.1.0",
+    "description": "Yeoman generator for creating Angular form components",
+    "dependencies": {
+      "chalk": "^4.1.0",
+      "yosay": "^10.0.0",
+      "yeoman-generator": "^4.13.0"
+    }
+  }
+  
